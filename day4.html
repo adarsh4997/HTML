@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Lets make forms today</h1>
+    <form action="">
+
+        <label for="username1">user-name</label>
+        <input type="text" id="username1">
+
+        <hr>
+
+        <label for="email_id">Email</label>
+        <input type="email" id = email_id value="@gmail.com">
+
+        <label for="pass1">password</label>
+        <input type="password" id="pass1" name="password">
+
+        <hr>
+
+        <label for="mobile1">mobile</label>
+        <input type="text" id="mobile1" name="mobile_no." min="0" max="5">
+
+        <hr>
+
+        <label for="gender1">male</label>
+        <input type="radio" name="gender" id="gender1">
+
+        <label for="gender2">female</label>
+        <input type="radio" name="gender" id="gender2">
+    
+        <br> <br>
+
+        <label for="country1">Country: </label>
+        <select name="" id="country1">
+            <option value="" disabled selected>choose one</option>
+            <option value="IND">INDIA</option>
+            <option value="USA">United States of America</option>
+            <option value="UK">United Kingdom</option>
+        </select>
+
+        <br> <br>
+
+        <label for="comments">Enter your comments*</label>
+        <br>
+        <textarea name="comments" id="comments" rows="10" placeholder="Type your comments here" cols="30" required></textarea>
+
+        <br><br>
+
+        <fieldset>
+            <legend>contact info</legend>
+            <label for="t1">Phone No.</label>
+            <input type="tel" id="t1">
+
+            <label for="a1">address</label>
+            <input type="text" id="a1">
+        </fieldset>
+
+        <br><br>
+        <label for="f1">Choose file</label>
+        <input type="file" name="attachment" id="f1">
+
+
+        <br><br>
+        <!-- <input type="button" value="Submit"> -->
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+</body>
+</html>
